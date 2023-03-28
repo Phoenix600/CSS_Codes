@@ -1,0 +1,21 @@
+/* #container {
+    background-image: url("images/moon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    z-index: -1;
+} */
+
+#img{
+    background-image: url("images/ship.png");
+    background-attachment: scroll;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 12%;
+    z-index: 99;
+}
+
+p{
+    opacity:30%;
+    color: white;
+}

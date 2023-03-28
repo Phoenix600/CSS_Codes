@@ -1,0 +1,222 @@
+body {
+    /* background: #000011; */
+    background: url('/image/Hawaii.jpg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.container {
+    width: 50%;
+    height: 60%;
+    border-style: none;
+    background: #ffd500;
+    border-radius: 5px;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    background: #e3e3e3;
+    border: 2px dashed #000000;
+    border-radius: 8px;
+    
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    background: #000000;
+    color: azure;
+    border: 1px dashed white;
+    border-radius: 10px;
+}
+
+div {
+    margin: auto;
+    height: 100px;
+    width: 500px;
+    margin-bottom: 15px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.para {
+    text-align: left;
+}
+
+.para-1 {
+    text-align: right
+}
+
+.para-2 {
+    text-align: center;
+}
+
+.para-3 {
+    text-align: justify;
+}
+
+/* Text Direction Propery 
+ */
+
+/*
+ The deafult property is left-to-right
+ */
+
+/* Changing the direction from ltr to right-to-left */
+.para-4 {
+    direction: ltr;
+}
+
+.para-5 {
+    direction: rtl;
+}
+
+
+/*
+|   vertical-align: 
+        used align targeted element with text 
+ */
+
+.container-1{
+    width: 50%;
+    height: 60%;
+    border-style: none;
+    background:#9648f5; 
+    color: white;
+    border-radius: 5px;
+}
+
+.para-6 img{
+   vertical-align: top; 
+}
+
+.para-7 img{
+    vertical-align: bottom;
+}
+
+.para-8 img{
+    vertical-align:middle;
+}
+
+
+/*
+* text-decoration property : 
+
+*/
+
+.container-2{
+    width: 50%;
+    height: 60%;
+    border-style: none;
+    background:#fb0d8c; 
+    border-radius: 5px;
+}
+
+.para-9{
+
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.para-10 
+{
+    text-decoration: overline;
+    color:whitesmoke;
+}
+
+.para-11{
+    text-decoration: underline;
+    color:whitesmoke;
+}
+
+.para-12{
+    text-decoration: line-through;
+    color: whitesmoke;
+}
+
+/*
+* The text-transform property , used to transform the 
+* typographic elements in html 
+* Chanaging the text into the lowercase, uppercase  and capitalize 
+*/
+.container-3{
+    width: 50%;
+    height: 60%;
+    border-style: none;
+    background: #0066ff;
+}
+
+.para-13{
+    color: white;
+    text-transform: lowercase;
+}
+
+.para-14{
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.para-15 {
+    color: white;
+    text-transform: capitalize;
+}
+
+.container-5{
+    width: 50%;
+    height: 60%;
+    border-style: none;
+    background:#ffd500;
+}
+
+.para-16{
+    line-height: 25px;
+}
+
+.para-17{
+    letter-spacing: 3px;
+}
+
+/*
+Adds the space in each word 
+*/
+.para-18{
+    word-spacing: 25px;
+}
+
+.para-19 
+{
+    text-indent: 80px;
+}
+
+.para-20
+{
+    white-space: normal;
+}
+
+.para-21 
+{
+    white-space:pre;
+}
+
+.para-22{  
+    white-space: break-spaces;
+}
+
+
+.para-23{
+    word-wrap:normal;
+}
+
+.para-24{
+    word-wrap: break-word;
+}
+
+.para-25{
+    color: honeydew;
+    font-size: 24px;
+    text-shadow: 10px 10px 5px #000000;
+}

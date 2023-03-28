@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Auto Auto</title>
+    <style>
+        body {
+            height: 500px;
+            width: 500px;
+            border: 1px solid red;
+        }
+
+        .container {
+            border: 1px solid green;
+            height: 80px;
+            width: 80px;
+            margin: 0 auto 0 auto;   /*This will center the div*/
+            margin: 0 auto 0 0;      /*This will place the div to the left*/
+            margin: 0 0 0 auto;
+            margin: auto auto;
+            margin: 0 0 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        sample text
+    </div>
+
+    <div class="container">
+        sample text
+    </div>
+
+
+</html>

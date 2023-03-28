@@ -1,0 +1,16 @@
+#imp{
+    color: red;
+}
+
+.para {
+    color: grey;
+    font-size: 18px;
+}
+
+.root {
+    font-size: 120px;
+}
+
+.sub-root{
+    font-size: 1rem;
+}

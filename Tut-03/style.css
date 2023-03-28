@@ -1,0 +1,22 @@
+#bg{
+    background-image: url('image/sample.jpeg');
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+}
+
+#img
+{
+    z-index: 12;
+    background-image: url('image/ship.png');
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: bottom center;
+    background-attachment: fixed;  
+} 
+
+#bg1{
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('image/moon.jpg');
+}

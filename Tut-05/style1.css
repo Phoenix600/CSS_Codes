@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Creating the navbar*/
+
+.navbar {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+    /* Setting the blur background */
+    background: linear-gradient(153.09deg, rgba(217, 217, 217, 0.38) -27.42%, rgba(217, 217, 217, 0) 113.8%);
+    backdrop-filter: blur(15px);
+
+}
+
+.navbar ul li {
+    padding: 5px;
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar ul li a {
+
+    text-decoration: none;
+    padding: 20px 60px ;
+
+    font-weight: bold;
+    color: rgb(211, 211, 211);
+}
+
+.navbar ul li a:hover{
+    transition-duration: 800ms;
+    background: whitesmoke;
+    font-weight:bolder;
+    border-radius: 8px;
+    color: #6ca70d;
+}
+
+
+
+
+body {
+    background: url(image/nature.png);
+    background-attachment: fixed;
+}
+
+
+.blurBG {
+
+    width: 50rem;
+    height: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    position: relative;
+    z-index: -1;
+    border-radius: 8px;
+
+    background: linear-gradient(153.09deg, rgba(217, 217, 217, 0.38) -27.42%, rgba(217, 217, 217, 0) 113.8%);
+    backdrop-filter: blur(20px);
+
+    /* backdrop-filter property has the minimal browser support  */
+
+}
+
+
+
+h1 {
+    padding: 15px;
+    background: #6ca70d;
+
+    text-align: center;
+    color: whitesmoke;
+
+    border-radius: 8px;
+}
+
+h3 {
+    /* Layout CSS */
+    margin: 8px;
+    padding: 7.5px;
+
+    /*Typographical CSS */
+    text-align: center;
+    color: #6ca70d;
+    ;
+    font-size: 24px;
+
+    /* Syles CSS */
+    background: whitesmoke;
+    border-radius: 4px;
+}
+
+.frame {
+    /* Layout CSS */
+    height: 15rem;
+    width: 49rem;
+    margin: 12px;
+    display: flex;
+
+    /*Justify-content and align-items align the child both vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+
+    /*Style CSS*/
+    /* background: whitesmoke; */
+    border: 2px solid whitesmoke;
+    border-radius: 14px;
+}
+
+.box {
+    margin: 12px;
+    height: 150px;
+    width: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #6ca70d;
+    border-radius: 4px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+    color: white;
+}
+
+
+.para {
+
+    height: 2rem;
+    width: 45rem;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+
+    color: white;
+    background: #6ca70d;
+    border-radius: 8px;
+}
+
+.box-2{
+    margin-left:300px;
+}
+
+.box-3{
+    margin-right: 300px;
+}
+
+.box-4{
+    margin-top: -100px;
+}
